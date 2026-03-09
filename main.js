@@ -10,6 +10,13 @@ let score = 0;
 const openMouthImg = "./images/open.png";
 const closeMouthImg = "./images/close.png";
 
+// PRELOAD IMAGES (important for GitHub Pages)
+const openImg = new Image();
+openImg.src = openMouthImg;
+
+const closeImg = new Image();
+closeImg.src = closeMouthImg;
+
 // The two Popping sounds
 const openMouthSound = new Audio("./sound/sound-open.mp3");
 const closeMouthSound = new Audio("./sound/sound-close.mp3");
